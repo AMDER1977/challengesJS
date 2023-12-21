@@ -4,9 +4,9 @@ function playSound(e) {
   if (!audio) return; //stop de ejecution
   audio.currentTime = 0; //rewind to start
   audio.play();
-
   key.classList.add("playing");
 }
+
 function removeTransition(e) {
   if (e.propertyName !== "transform") return;
   this.classList.remove("playing");

@@ -5,6 +5,7 @@
 }
 body {
   background-image: url("./assets/fullstack.png");
+  background-size: cover;
   background-repeat: unset;
 }
 .keys {
